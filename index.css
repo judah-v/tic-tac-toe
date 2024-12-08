@@ -29,6 +29,14 @@ video {
 	align-items: center;
 	grid-template-columns: repeat(3, auto);
 }
+@media(max-width: 675px){
+	:root {
+		--cell-size: 20vw;
+	}
+	#turn-counter {
+		font-size: 30px !important;
+	}
+}
 .cell {
 	width: var(--cell-size);
 	height: var(--cell-size);

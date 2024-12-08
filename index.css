@@ -36,6 +36,12 @@ video {
 	#turn-counter {
 		font-size: 30px !important;
 	}
+	video {
+		display: none;
+	}
+	body{
+		background-color: lightblue;
+	}
 }
 .cell {
 	width: var(--cell-size);
